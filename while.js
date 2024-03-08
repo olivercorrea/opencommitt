@@ -8,3 +8,8 @@ while (numeros[i] <= numeros.length){
     console.log(numeros[i]);
     i++;
 }
+
+console.log('Anoder loop but with for and showing the number To start iterating through an array from the last element');
+for (let i = numeros.length - 1; i >= 0; i--) {
+    console.log(numeros[i]);
+}
